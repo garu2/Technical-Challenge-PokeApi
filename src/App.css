@@ -1,0 +1,69 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/* styles grid pokedex */
+ul.main-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+  list-style: none;
+  justify-content: center;
+}
+ul.main-list li {
+  border-radius: 6px;
+  min-width: 200px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+ul.main-list li img {
+  width: 100%;
+  height: auto;
+  background: #F5F5F5;
+}
+ul.main-list li h3 {
+  margin: 0;
+}
+ul.main-list li p {
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.list-content {
+  max-width: 1000px;
+}
+
+button {
+  padding: 10px;
+  width: 30%;
+  background: transparent;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* styles for pupup */
+.popup {
+  position: fixed;
+  background-color: white;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.error {
+  color: red;
+  margin: 0;
+}
