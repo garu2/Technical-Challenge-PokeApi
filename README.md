@@ -1,8 +1,11 @@
-# React + Vite
+## 🚀Deploy
+[https://technical-challenge-poke-api.vercel.app/](https://technical-challenge-poke-api.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Puntos a mejorar
+* Crear un Custom Hook para hacer llamadas al API.
+* Usar React Router para dividir en páginas (Form, List).
+* Mejorar los estilos del formulario y la accesibilidad.
+* Mejorar las validaciones de los campos, hacerlas más específicas para cada input.
+* Los inputs del formulario podrían convertirse en un componente reutilizable.
+* Una vez que se envíe el formulario, mostrar alguna notificación.
+* Resolver el bug de las imágenes que se recuperan del local storage.
